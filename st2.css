@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    font-family: 'Tagesschrift', 'sans-seriff';
+    color: white;
+    margin-top: 3%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.screenTV{
+    width: 1185.91px;
+    height: 593.47px;
+    overflow: hidden;
+    margin: 15px;
+    background-color: rgb(77, 77, 77);
+}
+.tvON{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(255, 110, 110);
+    box-shadow: 0px 0px 5px red, 0px 0px 10px red;
+    border-radius: 100%;
+    margin-left: 50%;
+    transition: 0.5s;
+}
+.tvON.verde{
+    background-color: rgb(211, 255, 146);
+    box-shadow: 0px 0px 5px greenyellow, 0px 0px 10px greenyellow;
+}
+.bodyContent{
+    margin: 15px, 20px, 30px, 50px;
+    background-color: black;
+    
+}
+body{
+    background-color: rgb(87, 42, 0);
+    box-shadow: 0px 0px 5px rgb(0, 0, 0),
+     0px 0px 10px rgb(0, 0, 0),
+      0px 0px 20px rgb(0, 0, 0),
+       0px 0px 40px rgb(0, 0, 0),
+       0px 0px 160px rgb(0, 0, 0);
+    margin: 5%;
+}
+.conteudo{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 2%;
+    
+}
+iframe{
+    border: 4px solid rgb(0, 38, 255);
+    box-shadow: 0px 0px 5px rgb(0, 38, 255), 0px 0px 10px rgb(0, 38, 255), 0px 0px 20px rgb(0, 38, 255);
+    transition: 0.5s;
+}
+iframe:hover{
+    color: rgb(255, 217, 0);
+    background-color: rgb(76, 183, 255);
+    border: 4px solid rgb(0, 153, 255);
+    box-shadow: 2.5px 0px 5px rgb(0, 153, 255), 5px 0px 10px rgb(0, 153, 255), 10px 0px 20px rgb(0, 153, 255);
+}
+i{
+    text-shadow: 0px 0px 5px rgb(0, 38, 255), 0px 0px 10px rgb(0, 38, 255), 0px 0px 20px rgb(0, 38, 255);
+    color: rgb(206, 231, 255);
+}
+.icon-container{
+    margin-top: 2%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    gap: 10px;
+}
+.thumbnail{
+    width: 300px;
+    height: 150px;
+    margin: 8%;
+    border: 4px solid rgb(219, 100, 255);
+    box-shadow: 0px 0px 5px rgb(195, 0, 255), 0px 0px 10px rgb(195, 0, 255), 0px 0px 20px rgb(195, 0, 255);
+    overflow: hidden;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+.thumbnail:hover{
+    border: 4px solid rgb(97, 192, 255);
+    box-shadow: 0px 0px 5px rgb(0, 153, 255), 0px 0px 10px rgb(0, 153, 255), 0px 0px 20px rgb(0, 153, 255);
+}
+.imageT{
+    border-radius: 15px;
+    background-color: rgb(195, 0, 255);
+}
+#voltar{
+    cursor: pointer;
+    height: 455.1025px;
+    color: #ffffff;
+    font-family: 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(0, 38, 255);
+    border-top-right-radius: 15px;
+    border-left-width: 0%;
+    border: 4px solid rgb(0, 38, 255);
+    box-shadow: 2.5px 0px 5px rgb(0, 38, 255), 5px 0px 10px rgb(0, 38, 255), 10px 0px 20px rgb(0, 38, 255);
+    transition: 0.5s;
+}
+#voltar:hover{
+    color: rgb(255, 217, 0);
+    background-color: rgb(76, 183, 255);
+    border: 4px solid rgb(0, 153, 255);
+    box-shadow: 2.5px 0px 5px rgb(0, 153, 255), 5px 0px 10px rgb(0, 153, 255), 10px 0px 20px rgb(0, 153, 255);
+}
+audio{
+    height:445.1025px;
+}
